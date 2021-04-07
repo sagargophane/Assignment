@@ -1,25 +1,25 @@
 <div class="details-content">
   <div class="card">
-    <div class="body">
+    <div class="body" >
       <table class="table table-bordered">
         <thead>
           <tr>
-            <th scope="col">ID</th>
+            <th scope="col" >ID</th>
             <th scope="col">Fname</th>
             <th scope="col">Lname</th>
             <th scope="col">Address</th>
             <th scope="col">Adharcard number</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody *ngFor="let data of userdetail">
           <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>mark@mdo.com</td>
-            <td>AB234C163856</td>
+            <th scope="row">{{data.ID}}</th>
+            <td>{{data.Fname}}</td>
+            <td>{{data.Lname}}</td>
+            <td>{{data.Address}}</td>
+            <td>{{data.Adharnumber}}</td>
           </tr>
-          <tr>
+          <!-- <tr>
             <th scope="row">2</th>
             <td>Jacob</td>
             <td>Thornton</td>
@@ -32,7 +32,7 @@
             <td>Swift</td>
             <td>larry@twitter.com</td>
             <td>KY2345H29104</td>
-          </tr>
+          </tr> -->
         </tbody>
       </table>
     </div>

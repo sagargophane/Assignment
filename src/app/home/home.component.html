@@ -1,7 +1,7 @@
 <div class="home-content">
   <div class="container mt-1">
     <div class="row justify-content-around" >
-      <div class="col-sm-4" *ngFor="let data of webPlan">
+      <div class="col-sm-4" *ngFor="let data of webPlan; l">
         <div class="card" >
           <div class="col-sm-12">
             <div class="card-header" class="text-center">
@@ -10,12 +10,14 @@
             <div class="card-body">
               <div class="image">
                 <img src={{data.img}}>
-                <p class="text-center">{{data.plan}}</p>
+                <p class="text-center">{{data.plan1}}</p>
+                <p class="text-center">{{data.plan2}}</p>
+                <p class="text-center">{{data.plan3}}</p>
               </div>
 
             </div>
             <footer class="text-center">
-              <a  class="btn btn-primary" (click)="next()">Get Plan</a>
+              <a  class="btn btn-primary" >Get Plan</a>
             </footer>
           </div>
         </div>

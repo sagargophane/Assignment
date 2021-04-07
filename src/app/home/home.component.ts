@@ -13,9 +13,9 @@ export class HomeComponent implements OnInit {
 
   constructor(private router: Router) {
     this.webPlan = [
-      {name: 'basic plan', img: '../../assets/B.jpg', plan: '1 website 30 GB SSD Storage ~10000 visit Monthly'},
-      {name: 'gold plan', img: '../../assets/B2.jpg', plan: '2 website 50 GB SSD Storage ~10000 visit Monthly'},
-      {name: 'premium plan', img: '../../assets/B3.jpg', plan: '3 website 80 GB SSD Storage ~10000 visit Monthly'},
+      {name: 'Basic Plan', img: '../../assets/B.jpg', plan1: '1 website', plan2:'30 GB SSD Storage', plan3:'~10000 visit Monthly'},
+      {name: 'Gold Plan', img: '../../assets/B2.jpg', plan1: '50 website', plan2:'100 GB SSD Storage', plan3:'~50000 visit Monthly'},
+      {name: 'Premium Plan', img: '../../assets/B3.jpg', plan1: '100 website', plan2:'200 GB SSD Storage', plan3:'~100000 visit Monthly'},
     ]
    }
 
