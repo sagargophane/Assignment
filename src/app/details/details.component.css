@@ -1,0 +1,8 @@
+.details-content {
+  /* margin-top: 60px; */
+  background-image: url("/assets/background.jpg");
+  background-size: 100% ;
+  background-size: cover;
+  height: 550px;
+  padding: 3rem;
+}
