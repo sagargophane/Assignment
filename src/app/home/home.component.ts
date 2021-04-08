@@ -21,6 +21,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  /* This class will redirect to details page*/
   next(){
     this.router.navigate(['details'])
   }
